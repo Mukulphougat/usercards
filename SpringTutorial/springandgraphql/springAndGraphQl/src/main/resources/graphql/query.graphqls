@@ -1,0 +1,11 @@
+type Query {
+    bankAccount(id: ID): BankAccount
+}
+
+#type Book {
+#    isn: String
+#    title: String
+#    publisher: String
+#    authors: [String]
+#    publishedDate: String
+#}

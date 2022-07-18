@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+h1, button {
+    font-family: 'Oswald', sans-serif;
+}
+button {
+    font-size: 1.6rem;
+}
+#myDIV{
+    font-family: 'Oswald', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-family: 'Lora', serif;
+    font-size: 1.6rem;
+}
+input {
+    height: 30px;
+}
+.container {
+    margin-top: 90px;
+    /*border-radius: 20px;*/
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 400px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+.container > * {
+    align-self: center;
+}
+.button {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+
+    background: cornflowerblue;
+    color: white;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container > button {
+    margin-bottom: 20px;
+}

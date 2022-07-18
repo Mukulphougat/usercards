@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #61dafb;
+    height: 50px;
+    justify-content: space-between;
+}
+.link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links{
+    margin-left: 10px;
+}
+
